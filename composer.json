@@ -1,0 +1,15 @@
+{
+    "name": "ja1/linked_list",
+    "autoload": {
+        "psr-4": {
+            "Ja1\\LinkedList\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MateuszR",
+            "email": "mateusz.rusiecki@amsterdamstandard.com"
+        }
+    ],
+    "require": {}
+}

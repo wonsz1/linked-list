@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+namespace Ja1\LinkedList;
+
 class LinkedList
 {
     private ?ListNode $firstNode = null;
@@ -25,7 +27,7 @@ class LinkedList
         $this->totalNodes += 1;
     }
 
-    public function display()
+    public function display(): void
     {
         echo "Liczba elementów: {$this->totalNodes}" . PHP_EOL;
         $currentNode = $this->firstNode;

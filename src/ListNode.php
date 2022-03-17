@@ -2,10 +2,12 @@
 
 declare(strict_types=1);
 
+namespace Ja1\LinkedList;
+
 class ListNode
 {
     private int|string $data;
-    private ?ListNode $next;
+    private ?ListNode $next = null;
 
     public function __construct(int|string $data)
     {
